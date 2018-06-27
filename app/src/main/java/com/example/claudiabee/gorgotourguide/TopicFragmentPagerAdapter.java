@@ -1,6 +1,7 @@
 package com.example.claudiabee.gorgotourguide;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 
@@ -14,6 +15,7 @@ import com.example.claudiabee.gorgotourguide.fragments.PlacesFragment;
  * each list item based on a data source which is a list of {@link Info} objects.
  */
 public class TopicFragmentPagerAdapter extends FragmentPagerAdapter{
+    static final String LOG_TAG = "MyPager";
 
     private Context mContext;
 
@@ -40,7 +42,7 @@ public class TopicFragmentPagerAdapter extends FragmentPagerAdapter{
 
       /**
      * Return the {@link Fragment} that should be displayed for the given page number.
-     * @return
+       * @return the right fragment for the current position
      */
     @Override
     public Fragment getItem(int position) {
@@ -53,6 +55,26 @@ public class TopicFragmentPagerAdapter extends FragmentPagerAdapter{
                 return new EventsFragment();
             case 3:
                 return new FloraOfNaviglioFragment();
+            default:
+                return null;
+        }
+    }
+
+    /**
+     * Return the title of each tabs
+     */
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        switch (position) {
+            case 0:
+                return mContext.getText(R.string.general_info_fragment);
+            case 1:
+                return mContext.getText(R.string.places_to_see_fragment);
+            case 2:
+                return mContext.getText(R.string.events_in_gorgonzola_fragment);
+            case 3:
+                return mContext.getText(R.string.flora_of_naviglio_della_martesana_fragment);
             default:
                 return null;
         }

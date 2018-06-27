@@ -3,12 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".fragments.PlacesFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:background="#898989"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="16dp"
         android:text="@string/places_to_see_fragment" />
 
 </FrameLayout>

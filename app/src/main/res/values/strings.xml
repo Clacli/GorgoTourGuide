@@ -3,8 +3,8 @@
     <string name="woodden_bridge_desctription">woodden suspended bridge on the martesana naviglio at night</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="general_info_fragment">General info fragment</string>
-    <string name="places_to_see_fragment">Places to see</string>
-    <string name="events_in_gorgonzola_fragment">Events in Gorgonzola</string>
-    <string name="flora_of_naviglio_della_martesana_fragment">Flora of Naviglio della Martesana</string>
+    <string name="general_info_fragment">General Info</string>
+    <string name="places_to_see_fragment">Gorgo Places</string>
+    <string name="events_in_gorgonzola_fragment">Gorgo Events</string>
+    <string name="flora_of_naviglio_della_martesana_fragment">Gorgo Flora</string>
 </resources>
