@@ -3,6 +3,7 @@ package com.example.claudiabee.gorgotourguide;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,8 +37,13 @@ public class InfoCardRecyclerAdapter extends RecyclerView.Adapter<InfoCardRecycl
     @Override
     public void onBindViewHolder(@NonNull InfoViewHolder infoViewHolder, int i) {
         infoViewHolder.titleTextView.setText(infoCards.get(i).getInfoCardTitle());
-        infoViewHolder.descriptionTextView.setText(infoCards.get(i).getInfoCardDescription());
-        // Check if an image is provided for this word or not
+        // Check if a description is provided for this InfoCard or not
+        if (TextUtils.isEmpty(infoCards.get(i).getInfoCardDescription())) {
+            infoViewHolder.descriptionTextView.setVisibility(View.GONE);
+        } else {
+            infoViewHolder.descriptionTextView.setText(infoCards.get(i).getInfoCardDescription());
+        }
+        // Check if an image is provided for this InfoCard or not
         if (infoCards.get(i).hasImage()) {
             // If an image is available, display the provided image based on the resource ID
             infoViewHolder.cardImageView.setImageResource(infoCards.get(i).getImageResourceId());
