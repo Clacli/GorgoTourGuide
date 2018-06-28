@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Gorgo Tour Guide</string>
-    <string name="woodden_bridge_desctription">woodden suspended bridge on the martesana naviglio at night</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="general_info_fragment">General Info</string>
     <string name="places_to_see_fragment">Gorgo Places</string>
     <string name="events_in_gorgonzola_fragment">Gorgo Events</string>
     <string name="flora_of_naviglio_della_martesana_fragment">Gorgo Flora</string>
+    <string name="example_text">Some Text</string>
+    <string name="a_view_of_gorgonzola">a view of Gorgonzola</string>
 </resources>

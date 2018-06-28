@@ -8,31 +8,34 @@ public class Info {
     private String mInfoTitle;
 
     /**
-     * Text in the info card
+     * Constant value that represents no image was provided for this info
      */
-    private String mInfoText;
-
+    private static final int NO_IMAGE_PROVIDED = -1;
     /**
-     * The resource ID of the drawable resource
+     * Description in the info card
      */
-    private int mImageResourceId;
+    private String mInfoDescription;
+    /**
+     * The resource ID of the drawable resource for the info
+     */
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     // Constructors
     /**
      * Create an {@link Info} object
      *
-     * @param infoTitle is the infoTitle of the info card
-     * @param infoText is the infoText of the info card
+     * @param infoTitle is the title of the info card
+     * @param infoDescription is the description of the info card
      */
-    public Info(String infoTitle, String infoText){
+    public Info(String infoTitle, String infoDescription) {
         mInfoTitle = infoTitle;
-        mInfoText = infoText;
+        mInfoDescription = infoDescription;
     }
 
     /**
      * Create an {@link Info} object
      *
-     * @param infoTitle is the infoTitle of the info card
+     * @param infoTitle is the title of the info card
      * @param imageResourceId is the ID for the drawable resource
      */
     public Info(String infoTitle, int imageResourceId){
@@ -43,13 +46,13 @@ public class Info {
     /**
      * Create an {@link Info} object
      *
-     * @param infoTitle is the infoTitle of the info card
-     * @param infoText is the infoText of the info card
+     * @param infoTitle is the title of the info card
+     * @param infoDescription is the description of the info card
      * @param imageResourceId is the ID for the drawable resource
      */
-    public Info(String infoTitle, String infoText, int imageResourceId){
+    public Info(String infoTitle, String infoDescription, int imageResourceId) {
         mInfoTitle = infoTitle;
-        mInfoText = infoText;
+        mInfoDescription = infoDescription;
         mImageResourceId = imageResourceId;
     }
 
@@ -61,17 +64,24 @@ public class Info {
     }
 
     /**
-     * return the text of the info card
+     * return the description of the info card
      */
-    public String getInfoText(){
-        return mInfoTitle;
+    public String getInfoDescription() {
+        return mInfoDescription;
     }
 
     /**
-     * return the ID for the drawable resource
+     * return the ID for the drawable resource for the Info
      */
     public int getImageResourceId(){
         return mImageResourceId;
+    }
+
+    /**
+     * Returns whether or not there is an image for this Info.
+     */
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
     /**
@@ -79,9 +89,7 @@ public class Info {
      */
     @Override
     public String toString() {
-        return "Info{" +
-                "mInfoTitle='" + mInfoTitle + '\'' +
-                ", mInfoText='" + mInfoText + '\'' +
+        return "Info{" + "mInfoTitle='" + mInfoTitle + '\'' + ", mInfoDescription='" + mInfoDescription + '\'' +
                 ", mImageResourceId=" + mImageResourceId +
                 '}';
     }
