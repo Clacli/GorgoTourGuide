@@ -11,17 +11,17 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class InfoRecyclerAdapter extends RecyclerView.Adapter<InfoRecyclerAdapter.InfoViewHolder> {
+public class InfoCardRecyclerAdapter extends RecyclerView.Adapter<InfoCardRecyclerAdapter.InfoViewHolder> {
 
-    ArrayList<Info> infos;
+    ArrayList<InfoCard> infoCards;
 
-    public InfoRecyclerAdapter(ArrayList<Info> infos) {
-        this.infos = infos;
+    public InfoCardRecyclerAdapter(ArrayList<InfoCard> infoCards) {
+        this.infoCards = infoCards;
     }
 
     @Override
     public int getItemCount() {
-        return infos.size();
+        return infoCards.size();
     }
 
     @NonNull
@@ -35,12 +35,12 @@ public class InfoRecyclerAdapter extends RecyclerView.Adapter<InfoRecyclerAdapte
 
     @Override
     public void onBindViewHolder(@NonNull InfoViewHolder infoViewHolder, int i) {
-        infoViewHolder.titleTextView.setText(infos.get(i).getInfoTitle());
-        infoViewHolder.descriptionTextView.setText(infos.get(i).getInfoDescription());
+        infoViewHolder.titleTextView.setText(infoCards.get(i).getInfoCardTitle());
+        infoViewHolder.descriptionTextView.setText(infoCards.get(i).getInfoCardDescription());
         // Check if an image is provided for this word or not
-        if (infos.get(i).hasImage()) {
+        if (infoCards.get(i).hasImage()) {
             // If an image is available, display the provided image based on the resource ID
-            infoViewHolder.cardImageView.setImageResource(infos.get(i).getImageResourceId());
+            infoViewHolder.cardImageView.setImageResource(infoCards.get(i).getImageResourceId());
             // Make sure the view is visible
             infoViewHolder.cardImageView.setVisibility(View.VISIBLE);
         } else {
@@ -69,6 +69,4 @@ public class InfoRecyclerAdapter extends RecyclerView.Adapter<InfoRecyclerAdapte
 
         }
     }
-
-
 }
