@@ -12,14 +12,12 @@ import com.example.claudiabee.gorgotourguide.fragments.PlacesFragment;
 
 /**
  * {@link TopicFragmentPagerAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
- * each list item based on a data source which is a list of {@link Info} objects.
+ * each list item based on a data source which is a list of {@link InfoCard} objects.
  */
 public class TopicFragmentPagerAdapter extends FragmentPagerAdapter{
     static final String LOG_TAG = "MyPager";
-
-    private Context mContext;
-
     private static final int PAGE_NUMBER = 4;
+    private Context mContext;
 
     /**
      * Create a new {@link TopicFragmentPagerAdapter} object.
