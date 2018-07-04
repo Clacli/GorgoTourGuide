@@ -4,7 +4,7 @@
     <string name="app_name">Gorgo Tour Guide</string>
 
     <!-- Name of the fragment dedicated to the general information about the town -->
-    <string name="general_info_fragment">General Information</string>
+    <string name="general_info_fragment">The Town</string>
 
     <!-- Name of the fragment dedicated to the things too see in town  -->
     <string name="places_to_see_fragment">Things to see</string>
@@ -255,10 +255,10 @@
     <!-- Text about sagra gorgonzola -->
     <string name="sagra_info">
         Every year since 1998, around the third weekend of September there is a big party
-    in town, the streets get populated by many people who come to celebrate the
-    famous blue cheese in his hometown, from which it took its name.\nCrowded and
-    cheerful, it\'s an end of Summer party full of events, stalls, good food, good
-    wine and beer, but above all so much gorgonzola cheese.
+        in town, the streets get populated by many people who come to celebrate the
+        famous blue cheese in his hometown, from which it took its name.\nCrowded and
+        cheerful, it\'s an end of Summer party full of events, stalls, good food, good
+        wine and beer, but above all so much gorgonzola cheese.
     </string>
 
     <!-- Title of the Card about Saint Catherine Fair -->
@@ -281,6 +281,55 @@
     <!-- Text about art market -->
     <string name="mercatino_info">
         Every month on the first Sunday, except in January and in August.\nVia and Piazza Italia, Via Cavour and Piazza San Francesco.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="car_directions">Car</string>
+
+    <!-- Text about art market -->
+    <string name="car_directions_info">
+        From Milan and Bergamo with strada provinciale ex strada statale 11 Padana Superiore
+        (SP EX SS 11) which connect Turin to Venice going through Milan and
+        crossing the Po Valley.\nFrom Monza and Brianza and Melzo with
+        strada provinciale SP 13.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="metro_directions">Metro</string>
+
+    <!-- Text about art market -->
+    <string name="metro_directions_info">
+        In Gorgonzola there are three stops of the Milan &#8211; Gessate branch of
+        Line M2, or green line, of the metro of Milan:\nVilla Pompea (Frazione Riva),
+        Gorgonzola, Cascina Antonietta.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="bike_directions">Bike</string>
+
+    <!-- Text about art market -->
+    <string name="bike_directions_info">
+        A bike path starting from Milan, in Via Melchiorre Gioia, to Cassano d\'Adda
+        along the Naviglio della Martesana. From here it is possible to go as
+        far as Lecco via the Ciclabile d\'Adda along the River Adda.\nA bike path from
+        Gorgonzola to Melzo is under construction.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="bus_directions">Bus</string>
+
+    <!-- Text about art market -->
+    <string name="bus_directions_info">
+        Bus Z403 to Melzo, from the Gorgonzola M2 metro station.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="train_directions">Train</string>
+
+    <!-- Text about art market -->
+    <string name="train_directions_info">
+        Trains departing from the near town of Melzo to Milan and to Treviglio, and then
+        from there to Bergamo, Brescia and Venice.
     </string>
 
 </resources>

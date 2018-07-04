@@ -33,7 +33,11 @@ public class DirectionsFragment extends Fragment {
 
         // Create a list of InfoCard
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard("Geranio", "ragno"));
+        infoCards.add(new InfoCard(getString(R.string.car_directions), getString(R.string.car_directions_info)));
+        infoCards.add(new InfoCard(getString(R.string.metro_directions), getString(R.string.metro_directions_info)));
+        infoCards.add(new InfoCard(getString(R.string.bike_directions), getString(R.string.bike_directions_info)));
+        infoCards.add(new InfoCard(getString(R.string.bus_directions), getString(R.string.bus_directions_info)));
+        infoCards.add(new InfoCard(getString(R.string.train_directions), getString(R.string.train_directions_info)));
 
         // Instantiate a RecyclerView object
         mCardRecyclerView = rootView.findViewById(R.id.card_recycler);
