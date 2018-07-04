@@ -34,7 +34,7 @@ public class GeneralInfoFragment extends Fragment {
 
         // Create a list of Info
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard(getString(R.string.gorgonzola), getString(R.string.gorgonzola_description)));
+        infoCards.add(new InfoCard(getString(R.string.gorgonzola), getString(R.string.gorgonzola_description), R.drawable.naviglio_al_tramonto_bis));
         infoCards.add(new InfoCard(getString(R.string.geography), getString(R.string.geographical_info)));
         infoCards.add(new InfoCard(getString(R.string.cheese), getString(R.string.gorgonzola_cheese_info)));
         infoCards.add(new InfoCard(getString(R.string.parco_agricolo), getString(R.string.parco_agricolo_info)));

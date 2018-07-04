@@ -15,7 +15,6 @@
     <!-- Name of the fragment dedicated to the directions to get to the town -->
     <string name="flora_of_naviglio_della_martesana_fragment">Directions</string>
 
-    <!--  -->
     <!-- General text for the content decription of the images -->
     <string name="a_view_of_gorgonzola">a view of Gorgonzola</string>
 

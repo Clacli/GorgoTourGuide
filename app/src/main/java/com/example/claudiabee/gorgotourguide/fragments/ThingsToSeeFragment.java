@@ -32,12 +32,12 @@ public class ThingsToSeeFragment extends Fragment {
 
         // Create a list of InfoCard
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard(getString(R.string.naviglio), getString(R.string.naviglio_info)));
-        infoCards.add(new InfoCard(getString(R.string.sanctuary), getString(R.string.sanctuary_info)));
-        infoCards.add(new InfoCard(getString(R.string.ca_busca), getString(R.string.ca_busca_info)));
-        infoCards.add(new InfoCard(getString(R.string.old_hospital), getString(R.string.old_hospital_info)));
-        infoCards.add(new InfoCard(getString(R.string.major_church), getString(R.string.major_church_info)));
-        infoCards.add(new InfoCard(getString(R.string.palazzo_pirola_fregnaneschi), getString(R.string.palazzo_pirola_fregnaneschi_info)));
+        infoCards.add(new InfoCard(getString(R.string.naviglio), getString(R.string.naviglio_info), R.drawable.naviglio));
+        infoCards.add(new InfoCard(getString(R.string.sanctuary), getString(R.string.sanctuary_info), R.drawable.sanctuary1));
+        infoCards.add(new InfoCard(getString(R.string.ca_busca), getString(R.string.ca_busca_info), R.drawable.ponte_in_legno));
+        infoCards.add(new InfoCard(getString(R.string.old_hospital), getString(R.string.old_hospital_info), R.drawable.ospedalevecchiogorgonzola));
+        infoCards.add(new InfoCard(getString(R.string.major_church), getString(R.string.major_church_info), R.drawable.chiesa_dal_naviglio));
+        infoCards.add(new InfoCard(getString(R.string.palazzo_pirola_fregnaneschi), getString(R.string.palazzo_pirola_fregnaneschi_info), R.drawable.palazzopirola));
 
         // Instantiate a RecyclerView object
         mCardRecyclerView = rootView.findViewById(R.id.card_recycler);
