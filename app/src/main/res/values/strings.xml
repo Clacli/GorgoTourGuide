@@ -97,4 +97,101 @@
         in Rhineland-Palatinate, Germany.
     </string>
 
+    <!-- Title of the Card about the naviglio martesana -->
+    <string name="naviglio">Naviglio della Martesana</string>
+
+    <!-- Text about the naviglio martesana -->
+    <string name="naviglio_info">
+        The Naviglio della Martesana is a distinctive feature of the identity of the
+        territory it passes through.\nIt is a 38 Km long artificial canal, that receives
+        the waters from the River Adda in Concesa, a hamlet of Trezzo d\'Adda, it crosses
+        the Martesana territory and arrives as far as Milan, where it integrates into its
+        now largely underground water system.\nIts construction began under the Duke of
+        Milan Francesco Sforza in 1457, it was navigable from 1482 and completed in 1496
+        under Ludovico il Moro, although a few important adjustments were made
+        afterward.\nAt those times the Martesana territory was important not only for the
+        agricultural activity, but also for its strategic position, close to the border
+        with the Republic of Venice.\nThe Naviglio has been important to move the millstones,
+        presses of crushers, spinning machines and paper mills, to connect Milan to the
+        River Adda and the Lake of Como, to move people, food supplies and goods
+        back and forth.\nWith time it attracted the noble families who established their
+        country residences next to it.\nThe boats covered the entire journey from
+        Trezzo d\'Adda in 7 and a half hours, from Milan in 12 hours driven by two
+        horses.\The naviglio is no longer navigable since 1958, while remaining very
+        important both in collecting, regulating rainwater and for irrigation purposes.
+    </string>
+
+    <!-- Title of the Card about the sanctuary in Gorgonzola -->
+    <string name="sanctuary">Sanctuary of Our Lady of Help</string>
+
+    <!-- Text about the twin towns of Gorgonzola -->
+    <string name="sanctuary_info">
+        This little one nave church was once dedicated to Saint Peter and was part of
+        an ancient Umiliati\'s convent, perhaps it was its chapel.\nIts foundation dates
+        back to the XII century.\nA part of the convent is still visible in the
+        beautiful Corte dei Chiosi.\nIn the XVII century Francesco Maria Abbiati, the
+        Bishop of Bobbio who was born in Gorgonzola, donated a reproduction of the
+        painting of the Sanctuary of Bobbio depicting Our Lady of Help, to which the little
+        Sanctuary was later dedicated, due to popular devotion.
+    </string>
+
+    <!-- Title of the Card about Ca\' Busca -->
+    <string name="ca_busca">Ca\' Busca</string>
+
+    <!-- Text about about Ca\' Busca -->
+    <string name="ca_busca_info">
+        Ca\'busca, as Villa Serbelloni Busca Sola Cabiati is commonly called, was the country
+        residence of the ancient and noble Serbelloni family from Milan.\nIt is composed
+        of a main building, a system of rural courts, a sixteenth century tower, a covered
+        wooden bridge that crosses the Naviglio della Martesana.\nIt was purchased by
+        the municipality in the second half of the XX century.\nPart of it houses the
+        headquartes of the public library, in part it was fractioned into
+        private housing units.\nThe beautiful park of the Villa has become a much loved
+        public garden.
+    </string>
+
+    <!-- Title of the Card about Serbelloni Hospital -->
+    <string name="old_hospital">Ospedale Serbelloni</string>
+
+    <!-- Text about Serbelloni Hospital -->
+    <string name="old_hospital_info">
+        In his last will in 1802, the Duke Gian Galeazzo Sebelloni assigned lands and
+        funds in order to build a church and a hospital.\nHis daughter Maria Luigia
+        began to build the hospital in 1848, also thanks to the donations of the
+        Legato Pio Serbelloni and the Opera Pia Gagnola.\nIts execution was entrusted
+        to the architect Giacomo Muraglia, who conceived an elegant structure with
+        medical and hygienic standards which were very advanced in those days.\nIn 1975
+        this historic building was judged no longer suitable for its functions and since
+        then the hospital activity has taken place in a more modern structure.
+    </string>
+
+    <!-- Title of the Card about the main Church of Gorgonzola -->
+    <string name="major_church">Chiesa Prepositurale SS MM Gervasio e Protaso</string>
+
+    <!-- Text about the main Church of Gorgonzola -->
+    <string name="major_church_info">
+        This is the main Church of the town and it was built in substitution of an
+        older one, which dated back to the X century.\nThe new Church was made according
+        the last will of Gian Galeazzo Serbelloni by his daughter in 1806.\nIts construction
+        was entrusted to architect Simone Cantoni, and completed in 1820 By Giacomo
+        Muraglia who also build the bell tower.\nIt consists of an elegant and harmonious
+        structure in neoclassic style.\nThe Serbelloni Mausoleum stand at one of its
+        sides, the Naviglio flows on the other side.
+    </string>
+
+    <!-- Title of the Card about Palazzo Pirola -->
+    <string name="palazzo_pirola_fregnaneschi">Palazzo Fregnaneschi &#8211; Pirola</string>
+
+    <!-- Text about Palazzo Pirola -->
+    <string name="palazzo_pirola_fregnaneschi_info">
+        The villa, which stands parallel to the Naviglio was already mentioned as one
+        of the properties of the Fregnaneschi family in 1722 in a land register.\nAs
+        time went by it subsequently became property of other
+        families.\nDuring the latest decades of the XX century the palace was fractioned
+        into several housing units.\sIt has been under tutelage since 2002.\nThe subsequent
+        restoration work has given new splendor to this building of neoclassical
+        appearance,and has brought to light a few decorative elements reputed lost.\nThe
+        ground floor is property of the municipality.
+    </string>
+
 </resources>
