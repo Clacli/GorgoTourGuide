@@ -5,10 +5,10 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.claudiabee.gorgotourguide.fragments.EventsFragment;
-import com.example.claudiabee.gorgotourguide.fragments.FloraOfNaviglioFragment;
+import com.example.claudiabee.gorgotourguide.fragments.DirectionsFragment;
 import com.example.claudiabee.gorgotourguide.fragments.GeneralInfoFragment;
-import com.example.claudiabee.gorgotourguide.fragments.PlacesFragment;
+import com.example.claudiabee.gorgotourguide.fragments.ThingsToDoFragment;
+import com.example.claudiabee.gorgotourguide.fragments.ThingsToSeeFragment;
 
 /**
  * {@link TopicFragmentPagerAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
@@ -48,11 +48,11 @@ public class TopicFragmentPagerAdapter extends FragmentPagerAdapter{
             case 0:
                 return new GeneralInfoFragment();
             case 1:
-                return new PlacesFragment();
+                return new ThingsToSeeFragment();
             case 2:
-                return new EventsFragment();
+                return new ThingsToDoFragment();
             case 3:
-                return new FloraOfNaviglioFragment();
+                return new DirectionsFragment();
             default:
                 return null;
         }
