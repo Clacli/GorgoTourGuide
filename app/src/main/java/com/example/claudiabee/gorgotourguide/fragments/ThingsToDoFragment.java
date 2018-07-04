@@ -33,9 +33,7 @@ public class ThingsToDoFragment extends Fragment {
 
         // Create a list of Info
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard("Sagra Nazionale del Gorgonzola", "Ogni anno il " + "secondo weekend di settembre la città si fa festa, le strade si popolano di persone" + " che vengono a celebrare il celebre formaggio nella città in cui è nato e ha preso " + "il nome. Affollata e allegra festa di fine estate eventi, banchetti, " + "buon cibo e buona birra."));
-        infoCards.add(new InfoCard("Fiera di Santa Caterina", "Ogni ultimo weekend di " + "Novembre, dal 1785, si ripete una fiera "));
-        infoCards.add(new InfoCard("Mercatino di Arte e Cultura", "Ogni seconda domenica"));
+        infoCards.add(new InfoCard("resisto", "persisto"));
 
         // Instantiate a RecyclerView object
         mCardRecyclerView = rootView.findViewById(R.id.card_recycler);

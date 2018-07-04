@@ -1,11 +1,100 @@
 <resources>
+
+    <!-- Name of the app -->
     <string name="app_name">Gorgo Tour Guide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Name of the fragment dedicated to the general information about the town -->
     <string name="general_info_fragment">General Information</string>
+
+    <!-- Name of the fragment dedicated to the things too see in town  -->
     <string name="places_to_see_fragment">Things to see</string>
+
+    <!-- Name of the fragment dedicated to the things to do in town -->
     <string name="events_in_gorgonzola_fragment">Things to do</string>
+
+    <!-- Name of the fragment dedicated to the directions to get to the town -->
     <string name="flora_of_naviglio_della_martesana_fragment">Directions</string>
-    <string name="example_text">Some Text</string>
+
+    <!--  -->
+    <!-- General text for the content decription of the images -->
     <string name="a_view_of_gorgonzola">a view of Gorgonzola</string>
+
+    <!-- Title of the Card about basic info about the town -->
+    <string name="gorgonzola">Gorgonzola</string>
+
+    <!-- Text of the basic description about the town -->
+    <string name="gorgonzola_description">
+        Gorgonzola is a town in the Metropolitan City of Milan, in Lombardy.
+        It has around 20500 inhabitants called \"gorgonzolesi\".\n\"Gorgonzoeula\"
+        (IPA: [ɡurɡũˈdzøːla]) is the name of the town in the dialect spoken
+        around Milan. Sometimes the town is aldo called by some
+        \"GorgoTown\" in an affectionate and informal fashion.\nBesides the
+        characteristic city centre, the territory of Gorgonzola includes the
+        hamlets of Frazione Riva, Località Produttiva, Cascina Mugnaga,
+        Cascina Vergani, Cascina Nuova e Cascina Antonietta.
+    </string>
+
+    <!-- Title of the Card about basic geographical info about the town -->
+    <string name="geography">Geography</string>
+
+    <!-- Text of the basic geographical description of the town -->
+    <string name="geographical_info">
+        Gorgonzola is located at 133 m above sea level, 13 Km North &#8211; East of Milan
+        in the Martesana territory, once called Martesana county.\nThe Naviglio della
+        Martesana, an artificial canal, and the torrent Molgora flow through its flat
+        territory.\nThe Pre &#8211; Alps of Bergamo and Lecco and Valtellina are not
+        faraway to the North.
+    </string>
+
+    <!-- Title of the Card about gorgonzola cheese -->
+    <string name="cheese">Gorgonzola Cheese</string>
+
+    <!-- Text about gorgonzola cheese -->
+    <string name="gorgonzola_cheese_info">
+        According to most Gorgonzola is the birthplace of the blue cheese and it
+        had been the main centre of its production and trade for many centuries.\nOriginally
+        called Stracchino di Gorgonzola, and then also Stracchino verde, gorgonzola cheese
+        was produced with the Autumn milk of the weary (stracch in dialect) cows during
+        the transhumance from the summer mountain pastures.\nGradually its production
+        extended to an area ranging from Piedmont and Lombardy which is now defined and
+        protected by the PDO mark and the Consorzio per la Tutela del Formaggio Gorgonzola DOP,
+        which has also set the processing procedure to obtain the famous blue cheese.
+    </string>
+
+    <!-- Title of the Card about Parco Agricolo Sud Milano -->
+    <string name="parco_agricolo">Parco Agricolo Sud Milano</string>
+
+    <!-- Text about Parco Agricolo Sud Milano -->
+    <string name="parco_agricolo_info">
+        Gorgonzola is the most North &#821; Eastern town belonging to the Parco Agricolo
+        Sud Milano, which includes the land of the towns and villages of the Southern
+        half of the metropolitan belt surrounding Milan.\nHere agriculture is the
+        main activity supporting the protection of the environment and the landscape,
+        even if there are also untouched and protected areas, giving the park a high
+        plant and animal biodiversity.\nTourism is of a rural and naturalistic kind.
+    </string>
+
+    <!-- Title of the Card about Gorgonzola in letterature -->
+    <string name="literature_curiosity">Literature Curiosity</string>
+
+    <!-- Text of the literature curiosity about Gorgonzola -->
+    <string name="literature_curiosity_text">
+        In The Bethrothed by Alessandro Manzoni, chapter XVI, it is told that Renzo,
+        fleeing from Milan where he was involved in a riot and risked to be arrested,
+        headed to Bergamo, in the Republic of Venice, and stopped for dinner in an inn
+        in Gorgonzola.
+    </string>
+
+    <!-- Title of the Card about the twin towns of Gorgonzola -->
+    <string name="twin_towns">Twin Towns</string>
+
+    <!-- Text about the twin towns of Gorgonzola -->
+    <string name="twin_towns_info">
+        Ambert in Auvergne, France, since 2003.\nBoth cities are located almost at the
+        same latitude, but most of all both are known for their own blue cow\'s milk cheese,
+        Fourme d\'Ambert and Gorgonzola.\nAnnweiler am Trifels, Germany, since
+        September 2008.\nAnnweiler is a town in the Südliche Weinstraße district,
+        in Rhineland-Palatinate, Germany.
+    </string>
+
 </resources>

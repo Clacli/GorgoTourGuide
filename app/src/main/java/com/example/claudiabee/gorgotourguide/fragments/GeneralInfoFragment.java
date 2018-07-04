@@ -34,11 +34,12 @@ public class GeneralInfoFragment extends Fragment {
 
         // Create a list of Info
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard("Lorem Ipsum", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et mattis tellus, finibus egestas ipsum. Cras faucibus laoreet libero consequat imperdiet. Vivamus egestas a ligula eu tempus.", R.drawable.pontesullamartesana));
-        infoCards.add(new InfoCard("Etiam justo odio", "Etiam justo odio, blandit non luctus sed, aliquam eu neque. ", R.drawable.segnaletica_ciclovia));
-        infoCards.add(new InfoCard("Vestibulum euismod", "Vestibulum euismod ante lorem, ac bibendum quam aliquet vel. In ac consectetur massa. ", R.drawable.geranio));
-        infoCards.add(new InfoCard("Morbi tincidunt", "Morbi tincidunt gravida mauris, at suscipit quam aliquam et. Donec euismod arcu est, vel mattis nisl scelerisque auctor.", R.drawable.pontesullamartesana));
-        infoCards.add(new InfoCard("Phasellus gravida", "Phasellus gravida dignissim neque, sed dignissim est. Sed non felis in magna lobortis molestie. Proin at vehicula tellus.", R.drawable.pontesullamartesana));
+        infoCards.add(new InfoCard(getString(R.string.gorgonzola), getString(R.string.gorgonzola_description)));
+        infoCards.add(new InfoCard(getString(R.string.geography), getString(R.string.geographical_info)));
+        infoCards.add(new InfoCard(getString(R.string.cheese), getString(R.string.gorgonzola_cheese_info)));
+        infoCards.add(new InfoCard(getString(R.string.parco_agricolo), getString(R.string.parco_agricolo_info)));
+        infoCards.add(new InfoCard(getString(R.string.literature_curiosity), getString(R.string.literature_curiosity_text)));
+        infoCards.add(new InfoCard(getString(R.string.twin_towns), getString(R.string.twin_towns_info)));
 
         // Instantiate a RecyclerView object
         mCardRecyclerView = rootView.findViewById(R.id.card_recycler);

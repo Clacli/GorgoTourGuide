@@ -33,13 +33,7 @@ public class DirectionsFragment extends Fragment {
 
         // Create a list of InfoCard
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard("Geranio", R.drawable.geranio));
-        infoCards.add(new InfoCard("Rubus", R.drawable.geranio));
-        infoCards.add(new InfoCard("Galium", R.drawable.geranio));
-        infoCards.add(new InfoCard("Ficus", R.drawable.geranio));
-        infoCards.add(new InfoCard("Sambucus", R.drawable.geranio));
-        infoCards.add(new InfoCard("Tilium", R.drawable.geranio));
-        infoCards.add(new InfoCard("Morus", R.drawable.geranio));
+        infoCards.add(new InfoCard("Geranio", "ragno"));
 
         // Instantiate a RecyclerView object
         mCardRecyclerView = rootView.findViewById(R.id.card_recycler);
