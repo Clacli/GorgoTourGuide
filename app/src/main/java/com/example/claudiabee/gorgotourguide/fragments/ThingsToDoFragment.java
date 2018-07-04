@@ -33,7 +33,15 @@ public class ThingsToDoFragment extends Fragment {
 
         // Create a list of Info
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard("resisto", "persisto"));
+        infoCards.add(new InfoCard(getString(R.string.public_park), getString(R.string.public_park_info)));
+        infoCards.add(new InfoCard(getString(R.string.stadium), getString(R.string.stadium_info)));
+        infoCards.add(new InfoCard(getString(R.string.cinema), getString(R.string.cinema_info)));
+        infoCards.add(new InfoCard(getString(R.string.sports_centre), getString(R.string.sports_centre_info)));
+        infoCards.add(new InfoCard(getString(R.string.public_library), getString(R.string.public_library_info)));
+        infoCards.add(new InfoCard(getString(R.string.events_pp), getString(R.string.events_pp_info)));
+        infoCards.add(new InfoCard(getString(R.string.sagra), getString(R.string.sagra_info)));
+        infoCards.add(new InfoCard(getString(R.string.fair), getString(R.string.fair_info)));
+        infoCards.add(new InfoCard(getString(R.string.mercatino), getString(R.string.mercatino_info)));
 
         // Instantiate a RecyclerView object
         mCardRecyclerView = rootView.findViewById(R.id.card_recycler);

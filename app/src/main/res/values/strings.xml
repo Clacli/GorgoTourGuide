@@ -194,4 +194,93 @@
         ground floor is property of the municipality.
     </string>
 
+    <!-- Title of the Card about Giardino Sola Cabiati -->
+    <string name="public_park">Giardino Sola Cabiati</string>
+
+    <!-- Text about  -->
+    <string name="public_park_info">
+        Public park Giardino Sola Cabiati\nVia del Parco\nFree access\nFrom April to September
+        8:00 &#8211; 20:00\nFrom October to March 8:00 &#8211; 17:30\nMember del ReGiS - Rete dei Giardini Storici.
+    </string>
+
+    <!-- Title of the Card about Stadio Comunale Città di Gorgonzola -->
+    <string name="stadium">Stadio Comunale Città di Gorgonzola</string>
+
+    <!-- Text about Stadio Comunale Città di Gorgonzola -->
+    <string name="stadium_info">
+        The stadium houses the matches A.S.Erminio Giana, the main football team in town
+        which plays in the LegaPro italian championship.
+    </string>
+
+    <!-- Title of the Card about Cinema -->
+    <string name="cinema">Sala Argentia</string>
+
+    <!-- Text about Cinema-->
+    <string name="cinema_info">
+        Sala Argentia\nCinema and Theatre\nVia Matteotti 30\nSummer break during July and August\nInfo on: http://www.argentia.it/
+    </string>
+
+    <!-- Title of the Card about Sports Centre -->
+    <string name="sports_centre">Sports Centre</string>
+
+    <!-- Text about Sports Centre -->
+    <string name="sports_centre_info">
+        Sports Center Seven Infinity\nVia Toscana 7\nFitness\nTennis\nSPA &amp; wellness\nFootball/n
+        Indoor pool\nSummer Lido\nInfo on: https://www.seveninfinity.it/
+    </string>
+
+    <!-- Title of the Card about the  library -->
+    <string name="public_library">Biblioteca civica \"Franco Galato\"</string>
+
+    <!-- Text about the public library -->
+    <string name="public_library_info">
+        Public Library "Franco Galato"\nMember of CUBI, web of public libraries\nVia
+        Montenero 30\nFree access:\nThursday and Saturday 9:30 &#8211; 12:30\nFrom
+        Tuesday to Saturday 14:00 &#8211; 18:30\nStudying and reading newspaper and
+        magazines:\nTuesday, Wednesday and Friday 9:30 &#8211; 12:30\nOnline search for
+        available titles:\nhttp://www.cubinrete.it
+    </string>
+
+    <!-- Title of the Card about events Palazzo Pirola -->
+    <string name="events_pp">Palazzo Pirola</string>
+
+    <!-- Text about events in Palazzo Pirola -->
+    <string name="events_pp_info">
+        Events and art exhibitions.\nInfo on: http://palazzopirola.it/
+    </string>
+
+    <!-- Title of the Card about sagra gorgonzola -->
+    <string name="sagra">Sagra Nazionale del Gorgonzola</string>
+
+    <!-- Text about sagra gorgonzola -->
+    <string name="sagra_info">
+        Every year since 1998, around the third weekend of September there is a big party
+    in town, the streets get populated by many people who come to celebrate the
+    famous blue cheese in his hometown, from which it took its name.\nCrowded and
+    cheerful, it\'s an end of Summer party full of events, stalls, good food, good
+    wine and beer, but above all so much gorgonzola cheese.
+    </string>
+
+    <!-- Title of the Card about Saint Catherine Fair -->
+    <string name="fair">Saint Catherine Fair</string>
+
+    <!-- Text about Saint Catherine Fair -->
+    <string name="fair_info">
+        In 1785 a new fair was established, which became an important annual appointment
+        in which agricultural goods and products, diary, court and working animals were
+        bought and sold.\nSince then every year Saint Catherine Fair takes place on the
+        weekend around the 25 November, the day dedicated to the Saint of Alexandria of
+        Egypt.\nNowadays the agricultural element of the is much less pronounced,
+        nonetheless it keeps being a very heartfelt, cheerful fair which marks the
+        passage fromm deep Autumn to Winter.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="mercatino">Art and Culture market</string>
+
+    <!-- Text about art market -->
+    <string name="mercatino_info">
+        Every month on the first Sunday, except in January and in August.\nVia and Piazza Italia, Via Cavour and Piazza San Francesco.
+    </string>
+
 </resources>
