@@ -7,7 +7,6 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="actionBarStyle">@style/GorgoTourGuideAppBarStyle</item>
-        <item name="actionBarSize">128dp</item>
     </style>
 
     <style name="GorgoTourGuideAppBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
