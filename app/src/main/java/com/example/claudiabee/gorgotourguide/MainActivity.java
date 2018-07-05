@@ -1,5 +1,6 @@
 package com.example.claudiabee.gorgotourguide;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -25,5 +26,8 @@ public class MainActivity extends AppCompatActivity {
         // Setup tabs to the viewpager
         TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+        tabLayout.setSelectedTabIndicatorColor(Color.parseColor("#000000"));
+        tabLayout.setTabTextColors(Color.parseColor("#FFFFFF"), Color.parseColor("#000000"));
     }
 }

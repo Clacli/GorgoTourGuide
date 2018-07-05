@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary color of the app (shown in the app bar) -->
-    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimary">#f47100</color>
     <!-- Primary dark color of the app (shown in the status bar) -->
     <color name="colorPrimaryDark">@android:color/black</color>
     <!-- Accent color of the app (shown in the status bar) -->
