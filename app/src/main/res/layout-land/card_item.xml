@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/white"
-    android:padding="16dp">
+    android:padding="@dimen/card_root_view_padding">
 
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/card_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         card_view:cardBackgroundColor="@android:color/background_light"
-        card_view:cardCornerRadius="8dp"
+        card_view:cardCornerRadius="@dimen/corner_radius"
         card_view:cardUseCompatPadding="true">
 
         <LinearLayout
@@ -21,7 +21,7 @@
             <ImageView
                 android:id="@+id/card_image"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="@dimen/land_image_heigth"
                 android:contentDescription="@string/a_view_of_gorgonzola"
                 android:scaleType="centerCrop" />
 
@@ -29,22 +29,26 @@
                 android:id="@+id/card_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:paddingTop="16dp"
-                android:textSize="20sp"
+                android:paddingBottom="@dimen/title_padding_bottom"
+                android:paddingEnd="@dimen/title_padding_end"
+                android:paddingLeft="@dimen/title_padding_left"
+                android:paddingRight="@dimen/title_padding_right"
+                android:paddingStart="@dimen/title_padding_start"
+                android:paddingTop="@dimen/title_padding_top"
+                android:textSize="@dimen/title_text_size"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/card_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="16dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:paddingTop="8dp"
-                android:textSize="16sp" />
+                android:paddingBottom="@dimen/description_padding_bottom"
+                android:paddingEnd="@dimen/description_padding_end"
+                android:paddingLeft="@dimen/description_padding_left"
+                android:paddingRight="@dimen/description_padding_right"
+                android:paddingStart="@dimen/description_padding_start"
+                android:paddingTop="@dimen/description_padding_top"
+                android:textSize="@dimen/text_description_size" />
 
         </LinearLayout>
 
