@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Name of the app -->
+    <string name="app_name">Gorgo Tour Guide</string>
+
+    <!-- Name of the fragment dedicated to the general information about the town -->
+    <string name="general_info_fragment">La Città</string>
+
+    <!-- Name of the fragment dedicated to the things too see in town  -->
+    <string name="places_to_see_fragment">Cosa vedere</string>
+
+    <!-- Name of the fragment dedicated to the things to do in town -->
+    <string name="events_in_gorgonzola_fragment">Cosa fare</string>
+
+    <!-- Name of the fragment dedicated to the directions to get to the town -->
+    <string name="flora_of_naviglio_della_martesana_fragment">Indicazioni</string>
+
+    <!-- General text for the content decription of the images -->
+    <string name="a_view_of_gorgonzola">uno scorcio di gorgonzola</string>
+
+    <!-- Title of the Card about basic info about the town -->
+    <string name="gorgonzola">Gorgonzola</string>
+
+    <!-- Text of the basic description about the town -->
+    <string name="gorgonzola_description">
+        Gorgonzola è un comune italiano della Città Metropolitana di Milano, in Lombardia.\nGli
+        abitanti, circa 20500, sono chiamati gorgonzolesi.\nGorgonzoeula (IPA: [ɡurɡũˈdzøːla])
+        è il nome della città in dialetto milanese. La città è chiamata da
+        alcuni suoi abitanti GorgoTown, in modo affettuoso e informale.\nOltre al suo
+        caratteristico centro, nel suo territorio sono presenti le frazioni di Località
+        Produttiva, Frazione riva, Cascina Mugnaga, cascina Vergani, Cascina Nuova e
+        Cascina Antonietta.
+    </string>
+
+    <!-- Title of the Card about basic geographical info about the town -->
+    <string name="geography">Geografia</string>
+
+    <!-- Text of the basic geographical description of the town -->
+    <string name="geographical_info">
+        Gorgonzola è situata a 133 m s.l.m. a circa 13 Km Nord &#8211; di Milano, nel territorio della
+        Martesana, un tempo chiamata contado della Martesana.\nIl territorio è completamente
+        pianeggiante e attraversato dal Naviglio della Martesana e dal torrente Molgora.\nNon
+        lontane, a Nord, si trovano le Prealpi di Bergamo e di Lecco e la Valtellina.
+    </string>
+
+    <!-- Title of the Card about gorgonzola cheese -->
+    <string name="cheese">Formaggio Gorgonzola</string>
+
+    <!-- Text about gorgonzola cheese -->
+    <string name="gorgonzola_cheese_info">
+        Secondo molti Gorgonzola è il luogo di nascita dell\'omonimo formaggio erborinato,
+        nel 879, ed è stata per molti secoi il suo principale centro di produzione e
+        commercio.\nInizialmente chiamato Stracchino di Gorgonzola e poi anche
+        Stracchino verde, il Gorgonzola veniva prodotto con il latte delle vacche stanche
+        (stracch in dialetto) che in autunno effettuavano la transumanza
+        dagli alpeggi estivi.\nLa produzione del Gorgonzola si è estesa nel tempo in
+        un\'area compresa tra Lombardia e Piemonte ed è ora definita dal marchio DOP
+        e dal Consorzio per la Tutela del Formaggio Gorgonzola D.O.P. che ne disciplina
+        anche le procedure di lavorazione.
+    </string>
+
+    <!-- Title of the Card about Parco Agricolo Sud Milano -->
+    <string name="parco_agricolo">Parco Agricolo Sud Milano</string>
+
+    <!-- Text about Parco Agricolo Sud Milano -->
+    <string name="parco_agricolo_info">
+        Gorgonzola è il comune sito più a Nord Est del Parco Agricolo Sud Milano, che
+        si estende nei comuni della metà meridionale della fascia metropolitana che
+        circonda Milano.\nL\'attività agricola è alla base della tutela di ambiente e
+        territorio, anche se sono presenti aree inalterate e protette che rendono
+        il parco ricco di biodiversità vegetale e animale.\nL\'attività turistica
+        presente è di tipo rurale e naturalistico.
+    </string>
+
+    <!-- Title of the Card about Gorgonzola in letterature -->
+    <string name="literature_curiosity">Curiosità Letteraria</string>
+
+    <!-- Text of the literature curiosity about Gorgonzola -->
+    <string name="literature_curiosity_text">
+        Nel capitolo XVI de I promessi Sposi scritto da Alessandro Manzoni si racconta
+        che Renzo, scappando da Milano, dove era stato coinvolto in una rivolta e
+        rischiava di essere arrestato, si diresse verso Bergamo, nella Repubblica di
+        Venezia, e si fermò per cenare in un\'osteria a Gorgonzola.
+    </string>
+
+    <!-- Title of the Card about the twin towns of Gorgonzola -->
+    <string name="twin_towns">Città Gemellate</string>
+
+    <!-- Text about the twin towns of Gorgonzola -->
+    <string name="twin_towns_info">
+        Dal 2003 la città francese di Ambert, in Auvergne.\nLe due città, poste a latitudini
+        quasi uguali, sono famose per i formaggi erborinati Fourme d\'Ambert e
+        Gorgonzola\nDal 2008 Annweiler am Trifels, nel circondario della Weinstraße
+        Meridionale in Renania-Palatinato, Germania.
+    </string>
+
+    <!-- Title of the Card about the naviglio martesana -->
+    <string name="naviglio">Naviglio della Martesana</string>
+
+    <!-- Text about the naviglio martesana -->
+    <string name="naviglio_info">
+        Il Naviglio della Martesana è una caratteristica distintiva dell\'identità del
+        territorio che attraversa.\nE\' un canale artificiale lungo 38 Km che riceve
+        le acque del Fiume Adda a Concesa, frazione di Trezzo d\'Adda, attraversa il
+        territorio della Martesana e arriva fino a Milano, dove si integra nel suo sistema
+        idrico ormai in gran parte interrato.\nLa sua costruzione iniziò sotto il Duca di
+        Milano Francesco Sforza nel 1457, fu navigabile dal 1482 e finito nel 1496 sotto
+        Ludovico il Moro, sebbene in seguito siano state apportate alcune importanti
+        modifiche.\nA quei tempi la Martesana era importante non solo per l\'attività
+        agricola ma anche per la sua posizione strategica, vicina al confine con la
+        Repubblica di Venezia.\nIl naviglio è stato molto importante per muovere le
+        macine, le presse dei frantoi, filatoi e cartiere, per collegare Milano all\'Adda
+        e al Lago di Como, per spostare persone, generi alimentari e merci avanti e
+        indietro.\nCol tempo alcune famiglie nobili cittadine hanno stabilito le loro
+        residenze di campagna lungo il naviglio.\nLe barche coprivano l\'intero tragitto
+        da Trezzo d\'Adda in 7 ore e mezza, da Milano 12 ore trainate da cavalli.\nIl
+        naviglio non è più navigabile dal 1958, pur rimanendo importantissimo sia per
+        la raccolta e la regolazione dell\'acqua piovana sia a fini irrigui.
+    </string>
+
+    <!-- Title of the Card about the sanctuary in Gorgonzola -->
+    <string name="sanctuary">Santuario della Madonna dell\'Aiuto</string>
+
+    <!-- Text about the twin towns of Gorgonzola -->
+    <string name="sanctuary_info">
+        Questa piccola chiesa a navata unica era un tempo dedicata a San Pietro e
+        apparteneva a un antico convento degli Umiliati di cui forse era la
+        cappella.\nLa sua fondazione risale al secolo XIII.\nParte del convento è ancora
+        visibile nella splendida Corte dei Chiosi.\nNel XVI il Vescovo di Bobbio Francesco
+        Maria Abbiati, nativo di Gorgonzola, donò una riproduzione della Madonna raffigurata
+        nel Santuario di Bobbio.\nIl piccolo Santuario gorgonzolese fu in seguito dedicato
+        alla Madonna dell\'Aiuto per devozione popolare.
+    </string>
+
+    <!-- Title of the Card about Ca\' Busca -->
+    <string name="ca_busca">Ca\' Busca</string>
+
+    <!-- Text about about Ca\' Busca -->
+    <string name="ca_busca_info">
+        Ca\' Busca, come viene comunemente chiamata Villa Serbelloni Busca Sola Cabiati,
+        era la residenza di campagna dell\'antica e nobile famiglia milanese dei
+        Serbelloni.\nEssa è composta da un edificio padronale, un sistema di corti rurali,
+        una torre cinquecentesca, un ponte coperto in legno che scavalca
+        il Naviglio della Martesana.\nAcquistata dal comune nella seconda metà del XX secolo,
+        parte di essa ospita la sede della biblioteca pubblica, in parte ospita
+        abitazioni private.\nIl bellissimo parco della villa è diventato un giardino pubblico molto amato.
+    </string>
+
+    <!-- Title of the Card about Serbelloni Hospital -->
+    <string name="old_hospital">Ospedale Serbelloni</string>
+
+    <!-- Text about Serbelloni Hospital -->
+    <string name="old_hospital_info">
+        Nel 1802 il Duca Gian Galeazzo Serbelloni lasciò nel suo testamento terre
+        destinate alla costruzione di una chiesa e di un ospedale.\nNel 1802 la figlia
+        Maria Luigia iniziò la sua costruzione dell\'ospedale grazie al Legato Pio Serbelloni
+        e all\'Opera Pia Gagnola.\nIl progetto fu affidato all\'Architetto Giacomo Muraglia
+        che concepì una struttura dall\'aspetto signorile, realizzata secondo i più avanzati
+        standard igienico sanitari di quell\'epoca.\nIl corpo storico non è più utilizzato dal 1975,
+        quando fu giudicato non più idoneo alla funzione ospedaliera, che ora viene effettuata
+        in strutture più moderne.
+    </string>
+
+    <!-- Title of the Card about the main Church of Gorgonzola -->
+    <string name="major_church">Chiesa Prepositurale SS MM Gervasio e Protaso</string>
+
+    <!-- Text about the main Church of Gorgonzola -->
+    <string name="major_church_info">
+        Questa è la chiesa principale della città e fu costruita in sostituzione di
+        una più antica, che risaliva al X secolo.\nLa nuova chiesa fu costruita secondo
+        il volere di Gian Galeazzo Serbelloni da sua figlia.\nLa sua costruzione fu
+        affidata all\'architetto Simone Cantoni e completata nel 1820 da Giacomo Muraglia
+        che costruì anche il campanile.\nSi compone di una struttura elegante e armoniosa
+        in stile neoclassico.\nIl Mausoleo di Serbelloni si erge su uno dei lati, il Naviglio
+        scorre sull\'altro.
+    </string>
+
+    <!-- Title of the Card about Palazzo Pirola -->
+    <string name="palazzo_pirola_fregnaneschi">Palazzo Fregnaneschi &#8211; Pirola</string>
+
+    <!-- Text about Palazzo Pirola -->
+    <string name="palazzo_pirola_fregnaneschi_info">
+        La villa, che sorge parallela al corso del naviglio, è menzionata già nel 1722 nel
+        primo catasto ausburgico come una proprietà della famiglia Fregnaneschi. Successivamente
+        la proprietà passo ad altre famiglie. Negli ultimi decenni del XX secolo il palazzo è stato
+        frazionato in unità abitative private.\nDal 2002 è sotto tutela. I seguenti lavori di
+        restauro hanno donato un nuovo splendore a questo edificio dall\'aspetto neoclassico
+        e hanno riportato alla luce elementi decorativi che si pensavano perduti.\nIl piano
+        terra è di proprietà del Comune di Gorgonzola.
+    </string>
+
+    <!-- Title of the Card about Giardino Sola Cabiati -->
+    <string name="public_park">Giardino Sola Cabiati</string>
+
+    <!-- Text about  -->
+    <string name="public_park_info">
+        Parco pubblico Giardino Sola Cabiati\nVia del Parco\nAperto al pubblico\nDa Aprile a Settembre
+        8:00 &#8211; 20:00\nDa Ottobre a Marzo 8:00 - 17:30\nSocio del ReGiS - Rete dei Giardini Storici.
+    </string>
+
+    <!-- Title of the Card about Stadio Comunale Città di Gorgonzola -->
+    <string name="stadium">Stadio Comunale Città di Gorgonzola</string>
+
+    <!-- Text about Stadio Comunale Città di Gorgonzola -->
+    <string name="stadium_info">
+        Lo stadio ospita le partite dell\'A.S. Erminio Giana, la principale squadra di calcio
+        della città che milita nella LegaPro del campionato di calcio italiano.
+    </string>
+
+    <!-- Title of the Card about Cinema -->
+    <string name="cinema">Sala Argentia</string>
+
+    <!-- Text about Cinema-->
+    <string name="cinema_info">
+        Sala Argentia\nVia Matteotti 30\nCinema and Teatro\nChisura estiva in Luglio e Agosto\nPer informazioni:\nhttp://www.argentia.it/
+    </string>
+
+    <!-- Title of the Card about Sports Centre -->
+    <string name="sports_centre">Centro Sportivo</string>
+
+    <!-- Text about Sports Centre -->
+    <string name="sports_centre_info">
+        Centro sportivo Seven Infinity\nVia Toscana 7\nFitness\nTennis\nSPA &amp; wellness\nCalcio/n
+        Piscina interna\nLido estivo\nPer informazioni: https://www.seveninfinity.it/
+    </string>
+
+    <!-- Title of the Card about the  library -->
+    <string name="public_library">Biblioteca civica \"Franco Galato\"</string>
+
+    <!-- Text about the public library -->
+    <string name="public_library_info">
+        Biblioteca civica "Franco Galato"\nAppartiene a CUBI, rete di biblioteche pubbliche\nVia
+        Montenero 30\nOrario di apertura:\nGiovedì e Sabato 9:30 &#8211; 12:30\nDa
+        Giovedì a Sabato 14:00 &#8211; 18:30\nPer studio o la lettura di quotidiani e riviste:\nMartedì,
+        Mercoledì e Venerdì 9:30 &#8211; 12:30\nRicerca online per i titoli disponibili:\nhttp://www.cubinrete.it
+    </string>
+
+    <!-- Title of the Card about events Palazzo Pirola -->
+    <string name="events_pp">Palazzo Pirola</string>
+
+    <!-- Text about events in Palazzo Pirola -->
+    <string name="events_pp_info">
+        Eventi e mostre.\nPer informazioni: http://palazzopirola.it/
+    </string>
+
+    <!-- Title of the Card about sagra gorgonzola -->
+    <string name="sagra">Sagra Nazionale del Gorgonzola</string>
+
+    <!-- Text about sagra gorgonzola -->
+    <string name="sagra_info">
+        Ogni anno dal 1998, intorno al terzo fine settimana di settembre c\'è una grande festa in città,
+        le strade vengono popolate da tante persone che vengono a celebrare il
+        famoso formaggio blu nella sua città natale, da cui ha preso il nome.\nAffollata e
+        allegra, è una festa di fine estate piena di eventi, bancarelle, buon cibo,
+        buon vino, buona birra ma soprattutto tanto gorgonzola.
+    </string>
+
+    <!-- Title of the Card about Saint Catherine Fair -->
+    <string name="fair">Fiera di Santa Caterina</string>
+
+    <!-- Text about Saint Catherine Fair -->
+    <string name="fair_info">
+        Nel 1785 fu istituita una nuova fiera, che divenne un importante appuntamento
+        annuale in cui vendere e acquistare prodotti agricoli e caseari, animali di cortile e
+        da lavoro.\nDa allora ogni anno la Fiera di Santa Caterina si svolge il fine settimana
+        intorno al 25 novembre, giorno dedicato a alla Santa di Alessandria di Egitto.
+        Oggi l\'aspetto agricolo è meno pronunciato, tuttavia resta una fiera molto
+        sentita e allegra, che segna il passaggio dal profondo autunno all\'inverno.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="mercatino">Mercatino di Arte e Cultura</string>
+
+    <!-- Text about art market -->
+    <string name="mercatino_info">
+        Ogni prima domenica del mese, esclusi gennaio e agosto.\nVia e Piazza Italia,
+        Via Cavour e Piazza San Francesco.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="car_directions">Automobile</string>
+
+    <!-- Text about art market -->
+    <string name="car_directions_info">
+        Da Milano o Bergamo con la strada provinciale ex strada statale 11 Padana Superiore
+        (SP EX SS 11), che collega Torino a Venezia, attraversando la Pianura Padana
+        passando per Milano.\nDa Monza e Brianza a Melzo con la strada provinciale SP13.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="metro_directions">Metropolitana</string>
+
+    <!-- Text about art market -->
+    <string name="metro_directions_info">
+        A Gorgonzola ci sono tre fermate della tratta Milano &#8211; Gessate della
+        Linea2, o linea verde, della metropolitana di Milano:\nVilla Pompea (Frazione Riva),
+        Gorgonzola, Cascina Antonietta.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="bike_directions">Bicicletta</string>
+
+    <!-- Text about art market -->
+    <string name="bike_directions_info">
+        La ciclabile della Martesana che parte da Milano, in via Melchiorre Gioia a Cassano d\'Adda.
+        Da qui è possibile raggiungere Lecco proseguendo sulla Ciclabile dell\'Adda,
+        che segue il percorso del fiume.\nUna ciclabile da Gorgonzola a Melzo è in costruzione.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="bus_directions">Autobus</string>
+
+    <!-- Text about art market -->
+    <string name="bus_directions_info">
+        Autobus Z403 per Melzo dalla stazione della metropolitana Gorgonzola M2.
+    </string>
+
+    <!-- Title of the Card about art market -->
+    <string name="train_directions">Treno</string>
+
+    <!-- Text about art market -->
+    <string name="train_directions_info">
+        Nella vicina città di Melzo treni per Milano e Treviglio, e da qui per Bergamo,
+        Bresciia e Venezia.
+    </string>
+
+
+</resources>
