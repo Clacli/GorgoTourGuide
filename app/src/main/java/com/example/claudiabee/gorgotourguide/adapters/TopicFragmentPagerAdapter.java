@@ -1,10 +1,12 @@
-package com.example.claudiabee.gorgotourguide;
+package com.example.claudiabee.gorgotourguide.adapters;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.example.claudiabee.gorgotourguide.InfoCard;
+import com.example.claudiabee.gorgotourguide.R;
 import com.example.claudiabee.gorgotourguide.fragments.DirectionsFragment;
 import com.example.claudiabee.gorgotourguide.fragments.GeneralInfoFragment;
 import com.example.claudiabee.gorgotourguide.fragments.ThingsToDoFragment;

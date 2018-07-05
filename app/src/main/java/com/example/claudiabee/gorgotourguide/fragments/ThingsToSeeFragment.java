@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.claudiabee.gorgotourguide.InfoCard;
-import com.example.claudiabee.gorgotourguide.InfoCardRecyclerAdapter;
 import com.example.claudiabee.gorgotourguide.R;
+import com.example.claudiabee.gorgotourguide.adapters.InfoCardRecyclerAdapter;
 
 import java.util.ArrayList;
 

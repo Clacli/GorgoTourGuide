@@ -1,4 +1,4 @@
-package com.example.claudiabee.gorgotourguide;
+package com.example.claudiabee.gorgotourguide.adapters;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.CardView;
@@ -10,11 +10,14 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.claudiabee.gorgotourguide.InfoCard;
+import com.example.claudiabee.gorgotourguide.R;
+
 import java.util.ArrayList;
 
 public class InfoCardRecyclerAdapter extends RecyclerView.Adapter<InfoCardRecyclerAdapter.InfoViewHolder> {
 
-    ArrayList<InfoCard> infoCards;
+    private ArrayList<InfoCard> infoCards;
 
     public InfoCardRecyclerAdapter(ArrayList<InfoCard> infoCards) {
         this.infoCards = infoCards;
