@@ -1,9 +1,9 @@
 # GorgoTourGuide
 Tour Guide, Project 5 for the Udacity ABND Scholarship EMEA region by Google 2017/2018.
 
-This is a tour guide app around the town of Gorgonzola, sometimes also affectionately and informally 
-called by its citizens "GorgoTown".
-Gorgonzola is a town in Northen Italy, 13 Km East of Milan.
+#madewithudacity #googleudacityscholars #abndproject
+
+This is a tour guide app around the town of Gorgonzola displaying information on the town, the things to see, those to do and how to get there, each category in a fragment, each single information is displayed in a card item. Navigation through swipeable tabs. Also translated into Italian.
 
 To implement card based layout:
 https://developer.android.com/guide/topics/ui/layout/cardview
