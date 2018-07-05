@@ -19,10 +19,8 @@ public class InfoCard {
      */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    // Constructors
-
     /**
-     * Create an {@link InfoCard} object
+     * Create an {@link InfoCard} object which contains two TextViews.
      *
      * @param infoCardTitle       is the title of the info card
      * @param infoCardDescription is the description of the info card
@@ -33,18 +31,7 @@ public class InfoCard {
     }
 
     /**
-     * Create an {@link InfoCard} object
-     *
-     * @param infoCardTitle   is the title of the info card
-     * @param imageResourceId is the ID for the drawable resource
-     */
-    public InfoCard(String infoCardTitle, int imageResourceId) {
-        mInfoCardTitle = infoCardTitle;
-        mImageResourceId = imageResourceId;
-    }
-
-    /**
-     * Create an {@link InfoCard} object
+     * Create an {@link InfoCard} object which contains two TextViews and an ImageView.
      *
      * @param infoCardTitle       is the title of the info card
      * @param infoCardDescription is the description of the info card
