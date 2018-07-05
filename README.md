@@ -21,6 +21,9 @@ https://stackoverflow.com/questions/32501601/recyclerview-setvisibility-gone-for
 To fix tabs not taking the full width of the screen in landscape mode :
 https://stackoverflow.com/questions/30843775/tab-not-taking-full-width-on-tablet-device-using-android-support-design-widget
 
+To change tabs text color and tabs indicator color:
+https://stackoverflow.com/questions/37000088/how-to-change-selected-tab-text-color-using-tablayout-from-code-in-android
+
 
 Info on Gorgonzola:
 
@@ -62,6 +65,13 @@ accessed 02 Jul 2018
 https://prolocogorgonzola.it/about/story/
 accessed 2 Jul 2018
 
+http://palazzopirola.it/palazzo-fraganeschi-pirola/
+accessed 2 Jul 2018	
+
+http://www.retegiardinistorici.com/giardini/giardino-sola-cabiati/
+accessed 3 Jul 2018
+
+
 Foto Ospedale Serbelloni
 https://commons.wikimedia.org/wiki/File:002GorgonzolaVillaSerbelloni.JPG
 Picture by MarkusMark
@@ -80,8 +90,4 @@ Picture by EL SARO 92
 Questo file è licenziato in base ai termini della licenza Creative Commons Attribuzione-Condividi allo stesso modo 4.0 Internazionale 
 accessed 29 Jun 2018
 
-http://palazzopirola.it/palazzo-fraganeschi-pirola/
-accessed 2 Jul 2018	
-
-http://www.retegiardinistorici.com/giardini/giardino-sola-cabiati/
-accessed 3 Jul 2018
+all the other pictures by me
