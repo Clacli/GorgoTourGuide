@@ -1,7 +1,7 @@
 package com.example.claudiabee.gorgotourguide;
 
 public class InfoCard {
-    // Member variables
+
     /**
      * Constant value that represents no image was provided for this info
      */

@@ -15,9 +15,15 @@ import com.example.claudiabee.gorgotourguide.adapters.InfoCardRecyclerAdapter;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
+
 public class ThingsToSeeFragment extends Fragment {
 
-    private RecyclerView mCardRecyclerView;
+    @BindView(R.id.card_recycler) RecyclerView mCardRecyclerView;
+    private Unbinder unbinder;
+
     private RecyclerView.LayoutManager mLinearLayoutManager;
     private RecyclerView.Adapter mAdapter;
 
@@ -29,6 +35,7 @@ public class ThingsToSeeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.card_recycler, container, false);
+        unbinder = ButterKnife.bind(this, rootView);
 
         // Create a list of InfoCard
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
@@ -38,9 +45,6 @@ public class ThingsToSeeFragment extends Fragment {
         infoCards.add(new InfoCard(getString(R.string.old_hospital), getString(R.string.old_hospital_info), R.drawable.ospedalevecchiogorgonzola));
         infoCards.add(new InfoCard(getString(R.string.major_church), getString(R.string.major_church_info), R.drawable.chiesa_dal_naviglio));
         infoCards.add(new InfoCard(getString(R.string.palazzo_pirola_fregnaneschi), getString(R.string.palazzo_pirola_fregnaneschi_info), R.drawable.palazzopirola));
-
-        // Instantiate a RecyclerView object
-        mCardRecyclerView = rootView.findViewById(R.id.card_recycler);
 
         // Instantiate a LinearLayoutManager to manage the RecyclerView
         mLinearLayoutManager = new LinearLayoutManager(getActivity());
@@ -55,6 +59,12 @@ public class ThingsToSeeFragment extends Fragment {
         mCardRecyclerView.setAdapter(mAdapter);
 
         return rootView;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
     }
 
 }

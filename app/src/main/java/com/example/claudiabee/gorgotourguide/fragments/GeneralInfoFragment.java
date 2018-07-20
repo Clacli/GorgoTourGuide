@@ -15,10 +15,16 @@ import com.example.claudiabee.gorgotourguide.adapters.InfoCardRecyclerAdapter;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
+
 
 public class GeneralInfoFragment extends Fragment {
 
-    private RecyclerView mCardRecyclerView;
+    @BindView(R.id.card_recycler) RecyclerView mCardRecyclerView;
+    private Unbinder unbinder;
+
     private RecyclerView.LayoutManager mLinearLayoutManager;
     private RecyclerView.Adapter mAdapter;
 
@@ -31,6 +37,7 @@ public class GeneralInfoFragment extends Fragment {
 
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.card_recycler, container, false);
+        unbinder = ButterKnife.bind(this, rootView);
 
         // Create a list of Info
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
@@ -41,10 +48,7 @@ public class GeneralInfoFragment extends Fragment {
         infoCards.add(new InfoCard(getString(R.string.literature_curiosity), getString(R.string.literature_curiosity_text)));
         infoCards.add(new InfoCard(getString(R.string.twin_towns), getString(R.string.twin_towns_info)));
 
-        // Instantiate a RecyclerView object
-        mCardRecyclerView = rootView.findViewById(R.id.card_recycler);
-
-        //Instantiate a LinearlayoutManager to manage my cardRecyclerView
+        //Instantiate a LinearLayoutManager to manage my cardRecyclerView
         mLinearLayoutManager = new LinearLayoutManager(getActivity());
 
         // Set the LinearLayoutManager on the RecyclerView
@@ -52,10 +56,16 @@ public class GeneralInfoFragment extends Fragment {
 
         // Get an instance of InfoCardRecyclerAdapter
         mAdapter = new InfoCardRecyclerAdapter(infoCards);
+
         // Set the adapter on the cardRecyclerView
         mCardRecyclerView.setAdapter(mAdapter);
 
         return rootView;
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
+    }
 }

@@ -15,6 +15,9 @@ import com.example.claudiabee.gorgotourguide.R;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class InfoCardRecyclerAdapter extends RecyclerView.Adapter<InfoCardRecyclerAdapter.InfoViewHolder> {
 
     private ArrayList<InfoCard> infoCards;
@@ -64,18 +67,14 @@ public class InfoCardRecyclerAdapter extends RecyclerView.Adapter<InfoCardRecycl
     }
 
     public static class InfoViewHolder extends RecyclerView.ViewHolder {
-        CardView cardItem;
-        TextView titleTextView;
-        TextView descriptionTextView;
-        ImageView cardImageView;
+        @BindView(R.id.card_item) CardView cardItem;
+        @BindView(R.id.card_title) TextView titleTextView;
+        @BindView(R.id.card_description) TextView descriptionTextView;
+        @BindView(R.id.card_image) ImageView cardImageView;
 
         InfoViewHolder(View itemView) {
             super(itemView);
-            cardItem = itemView.findViewById(R.id.card_item);
-            titleTextView = itemView.findViewById(R.id.card_title);
-            descriptionTextView = itemView.findViewById(R.id.card_description);
-            cardImageView = itemView.findViewById(R.id.card_image);
-
+            ButterKnife.bind(this, itemView);
         }
     }
 }

@@ -8,15 +8,19 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.claudiabee.gorgotourguide.adapters.TopicFragmentPagerAdapter;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity {
+
+    @BindView(R.id.viewpager) ViewPager viewPager;
+    @BindView(R.id.tabs) TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // Find the view pager that will allow the user to swipe between fragments
-        ViewPager viewPager = findViewById(R.id.viewpager);
+        ButterKnife.bind(this);
 
         // Create an adapter that knows which fragment should be shown on each page
         TopicFragmentPagerAdapter topicAdapter =
@@ -25,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
         // Hook viewPager to a Pager Adapter using setAdapter method
         viewPager.setAdapter(topicAdapter);
 
-        // Setup tabs to the viewpager
-        TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.setSelectedTabIndicatorColor(Color.parseColor("#000000"));

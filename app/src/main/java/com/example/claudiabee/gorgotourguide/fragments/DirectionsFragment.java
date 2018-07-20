@@ -15,10 +15,16 @@ import com.example.claudiabee.gorgotourguide.adapters.InfoCardRecyclerAdapter;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
+
 
 public class DirectionsFragment extends Fragment {
 
-    private RecyclerView mCardRecyclerView;
+    @BindView(R.id.card_recycler) RecyclerView mCardRecyclerView;
+    private Unbinder unbinder;
+
     private RecyclerView.LayoutManager mLinearLayoutLayout;
     private RecyclerView.Adapter mAdapter;
 
@@ -30,6 +36,7 @@ public class DirectionsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.card_recycler, container, false);
+        unbinder = ButterKnife.bind(this, rootView);
 
         // Create a list of InfoCard
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
@@ -38,9 +45,6 @@ public class DirectionsFragment extends Fragment {
         infoCards.add(new InfoCard(getString(R.string.bike_directions), getString(R.string.bike_directions_info)));
         infoCards.add(new InfoCard(getString(R.string.bus_directions), getString(R.string.bus_directions_info)));
         infoCards.add(new InfoCard(getString(R.string.train_directions), getString(R.string.train_directions_info)));
-
-        // Instantiate a RecyclerView object
-        mCardRecyclerView = rootView.findViewById(R.id.card_recycler);
 
         // Instantiate a LinearLayoutManager to manage the RecyclerView
         mLinearLayoutLayout = new LinearLayoutManager(getActivity());
@@ -55,5 +59,11 @@ public class DirectionsFragment extends Fragment {
         mCardRecyclerView.setAdapter(mAdapter);
 
         return rootView;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
     }
 }
