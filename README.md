@@ -24,6 +24,8 @@ https://stackoverflow.com/questions/30843775/tab-not-taking-full-width-on-tablet
 To change tabs text color and tabs indicator color:
 https://stackoverflow.com/questions/37000088/how-to-change-selected-tab-text-color-using-tablayout-from-code-in-android
 
+I integrated Butter Knife library to the code for easy initialization by eliminating the use of findViewById. Butter Knife Copyright 2013 Jake Wharton http://jakewharton.github.io/butterknife/
+
 
 Info on Gorgonzola:
 
