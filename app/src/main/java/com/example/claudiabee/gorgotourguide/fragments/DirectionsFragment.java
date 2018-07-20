@@ -15,12 +15,25 @@ import com.example.claudiabee.gorgotourguide.adapters.InfoCardRecyclerAdapter;
 
 import java.util.ArrayList;
 
+import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 
 public class DirectionsFragment extends Fragment {
+
+    // Bind String resources with Butter Knife
+    @BindString(R.string.car_directions) String car;
+    @BindString(R.string.car_directions_info) String carInfo;
+    @BindString(R.string.metro_directions) String metro;
+    @BindString(R.string.metro_directions_info) String metroInfo;
+    @BindString(R.string.bike_directions) String bike;
+    @BindString(R.string.bike_directions_info) String bikeInfo;
+    @BindString(R.string.bus_directions) String bus;
+    @BindString(R.string.bus_directions_info) String busInfo;
+    @BindString(R.string.train_directions) String train;
+    @BindString(R.string.train_directions_info) String trainInfo;
 
     @BindView(R.id.card_recycler) RecyclerView mCardRecyclerView;
     private Unbinder unbinder;
@@ -40,11 +53,11 @@ public class DirectionsFragment extends Fragment {
 
         // Create a list of InfoCard
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard(getString(R.string.car_directions), getString(R.string.car_directions_info)));
-        infoCards.add(new InfoCard(getString(R.string.metro_directions), getString(R.string.metro_directions_info)));
-        infoCards.add(new InfoCard(getString(R.string.bike_directions), getString(R.string.bike_directions_info)));
-        infoCards.add(new InfoCard(getString(R.string.bus_directions), getString(R.string.bus_directions_info)));
-        infoCards.add(new InfoCard(getString(R.string.train_directions), getString(R.string.train_directions_info)));
+        infoCards.add(new InfoCard(car, carInfo));
+        infoCards.add(new InfoCard(metro, metroInfo));
+        infoCards.add(new InfoCard(bike, bikeInfo));
+        infoCards.add(new InfoCard(bus, busInfo));
+        infoCards.add(new InfoCard(train, trainInfo));
 
         // Instantiate a LinearLayoutManager to manage the RecyclerView
         mLinearLayoutLayout = new LinearLayoutManager(getActivity());

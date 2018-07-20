@@ -15,11 +15,26 @@ import com.example.claudiabee.gorgotourguide.adapters.InfoCardRecyclerAdapter;
 
 import java.util.ArrayList;
 
+import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 public class ThingsToSeeFragment extends Fragment {
+
+    // Bind String resources with Butter Knife
+    @BindString(R.string.naviglio) String naviglio;
+    @BindString(R.string.naviglio_info) String naviglioInfo;
+    @BindString(R.string.sanctuary) String sanctuary;
+    @BindString(R.string.sanctuary_info) String sanctuaryInfo;
+    @BindString(R.string.ca_busca) String caBusca;
+    @BindString(R.string.ca_busca_info) String caBuscaInfo;
+    @BindString(R.string.old_hospital) String oldHospital;
+    @BindString(R.string.old_hospital_info) String oldHospitalInfo;
+    @BindString(R.string.major_church) String majorChurch;
+    @BindString(R.string.major_church_info) String majorChurchInfo;
+    @BindString(R.string.palazzo_pirola_fregnaneschi) String palazzoPirolaFregnaneschi;
+    @BindString(R.string.palazzo_pirola_fregnaneschi_info) String palazzoPirolaFregnaneschiInfo;
 
     @BindView(R.id.card_recycler) RecyclerView mCardRecyclerView;
     private Unbinder unbinder;
@@ -39,12 +54,12 @@ public class ThingsToSeeFragment extends Fragment {
 
         // Create a list of InfoCard
         ArrayList<InfoCard> infoCards = new ArrayList<InfoCard>();
-        infoCards.add(new InfoCard(getString(R.string.naviglio), getString(R.string.naviglio_info), R.drawable.naviglio));
-        infoCards.add(new InfoCard(getString(R.string.sanctuary), getString(R.string.sanctuary_info), R.drawable.sanctuary1));
-        infoCards.add(new InfoCard(getString(R.string.ca_busca), getString(R.string.ca_busca_info), R.drawable.ponte_in_legno));
-        infoCards.add(new InfoCard(getString(R.string.old_hospital), getString(R.string.old_hospital_info), R.drawable.ospedalevecchiogorgonzola));
-        infoCards.add(new InfoCard(getString(R.string.major_church), getString(R.string.major_church_info), R.drawable.chiesa_dal_naviglio));
-        infoCards.add(new InfoCard(getString(R.string.palazzo_pirola_fregnaneschi), getString(R.string.palazzo_pirola_fregnaneschi_info), R.drawable.palazzopirola));
+        infoCards.add(new InfoCard(naviglio, naviglioInfo, R.drawable.naviglio));
+        infoCards.add(new InfoCard(sanctuary, sanctuaryInfo, R.drawable.sanctuary1));
+        infoCards.add(new InfoCard(caBusca, caBuscaInfo, R.drawable.ponte_in_legno));
+        infoCards.add(new InfoCard(oldHospital, oldHospitalInfo, R.drawable.ospedalevecchiogorgonzola));
+        infoCards.add(new InfoCard(majorChurch, majorChurchInfo, R.drawable.chiesa_dal_naviglio));
+        infoCards.add(new InfoCard(palazzoPirolaFregnaneschi, palazzoPirolaFregnaneschiInfo, R.drawable.palazzopirola));
 
         // Instantiate a LinearLayoutManager to manage the RecyclerView
         mLinearLayoutManager = new LinearLayoutManager(getActivity());
